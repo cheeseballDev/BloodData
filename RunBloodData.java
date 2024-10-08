@@ -1,3 +1,5 @@
+package BloodData;
+
 import java.util.Scanner;
 
 public class RunBloodData {
@@ -22,7 +24,8 @@ public class RunBloodData {
                 System.out.print(bloodDataObject.getBloodType() + bloodDataObject.getRhFactor() + " is added to the blood bank.\n");
                 continue;
             }
-            System.out.print(bloodDataObject.getBloodType() + bloodDataObject.getRhFactor() + " is added to the blood bank.\n");
+            BloodData bloodDataObjectEmpty = new BloodData();
+            System.out.print(bloodDataObjectEmpty.getBloodType() + bloodDataObjectEmpty.getRhFactor() + " is added to the blood bank.\n");
         }
     }
     public static void clearScreen() {  

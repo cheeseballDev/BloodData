@@ -1,3 +1,5 @@
+package BloodData;
+
 import java.util.Scanner;
 
 public class BloodData {
@@ -11,19 +13,19 @@ public class BloodData {
         rhFactor = "+";
     }
 
-    void setBloodType(String bloodType) {
+    public void setBloodType(String bloodType) {
         this.bloodType = bloodType; 
     }
 
-    void setRhFactor(String rhFactor) {
+    public void setRhFactor(String rhFactor) {
         this.rhFactor = rhFactor;    
     }
 
-    String getBloodType() {
+    public String getBloodType() {
         return this.bloodType;
     }
 
-    String getRhFactor() {
+    public String getRhFactor() {
         return this.rhFactor;
     }
 
